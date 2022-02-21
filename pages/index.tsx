@@ -11,7 +11,7 @@ const IndexScreen = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-800">
+    <div className="min-h-screen bg-slate-800 flex flex-col">
       <header className="text-white text-center text-xs p-2 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         School Resources 📚️
       </header>
@@ -25,7 +25,7 @@ const IndexScreen = () => {
           onChange={onSearch}
         />
       </div>
-      <main className="p-8 flex gap-4">
+      <main className="p-8 flex flex-1 gap-4">
         {BOOKS.filter((book) => {
           let bookMatch = false;
 
@@ -59,6 +59,14 @@ const IndexScreen = () => {
           );
         })}
       </main>
+      <footer className="font-medium text-center w-full p-8 bg-slate-900">
+        <small className="text-slate-500">
+          Made with ❤️ by{" "}
+          <a href="https://reyes.cool" className="text-indigo-500">
+            Jorge Reyes
+          </a>
+        </small>
+      </footer>
     </div>
   );
 };
