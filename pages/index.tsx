@@ -25,7 +25,7 @@ const IndexScreen = () => {
           onChange={onSearch}
         />
       </div>
-      <main className="p-8 flex flex-1 gap-4">
+      <main className="p-8 flex flex-1 flex-wrap justify-center gap-4">
         {BOOKS.filter((book) => {
           let bookMatch = false;
 
