@@ -15,17 +15,17 @@ const IndexScreen = () => {
       <header className="text-white text-center text-xs p-2 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-teal-500 animate-gradient-x">
         School Resources 📚️
       </header>
-      <div className="m-4 p-2 rounded-xl bg-slate-900/50 flex items-center justify-center">
+      <div className="p-2 bg-slate-900 flex items-center justify-center sticky top-0 left-0 z-20 shadow-lg">
         <SearchIcon className="text-slate-700 w-5 h-5 ml-2" />
         <input
           type="text"
-          className="text-white text-center font-medium w-full p-2 bg-transparent outline-none focus:outline-none placeholder:text-slate-700"
+          className="text-white text-center font-normal w-full p-2 bg-transparent outline-none focus:outline-none placeholder:text-slate-500"
           placeholder="Look for a Book or a Tag"
           value={filter}
           onChange={onSearch}
         />
       </div>
-      <main className="p-8 flex flex-1 flex-wrap items-start justify-center gap-4">
+      <main className="p-8 h-screen flex  flex-wrap items-start justify-center gap-4">
         {BOOKS.filter((book) => {
           let bookMatch = false;
 
