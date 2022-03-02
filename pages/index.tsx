@@ -12,7 +12,7 @@ const IndexScreen = () => {
 
   return (
     <div className="min-h-screen bg-slate-800 flex flex-col">
-      <header className="text-white text-center text-xs p-2 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <header className="text-white text-center text-xs p-2 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-teal-500 animate-gradient-x">
         School Resources 📚️
       </header>
       <div className="m-4 p-2 rounded-xl bg-slate-900/50 flex items-center justify-center">
@@ -25,7 +25,7 @@ const IndexScreen = () => {
           onChange={onSearch}
         />
       </div>
-      <main className="p-8 flex flex-1 flex-wrap justify-center gap-4">
+      <main className="p-8 flex flex-1 flex-wrap items-start justify-center gap-4">
         {BOOKS.filter((book) => {
           let bookMatch = false;
 
