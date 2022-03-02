@@ -53,11 +53,7 @@ const BOOKS = [
     author: "Jon Kleinberg, Éva Tardo",
     url: "https://ia902909.us.archive.org/2/items/AlgorithmDesign1stEditionByJonKleinbergAndEvaTardos2005PDF/Algorithm%20Design%20%281st%20Edition%29%20by%20Jon%20Kleinberg%20and%20Eva%20Tardos%202005%20PDF.pdf",
     cover: "/programacion/ad-jket.png",
-<<<<<<< HEAD
     tags: ["programacion", "algoritmos"],
-=======
-    tags: ["programacion", "algorithms"],
->>>>>>> 798f4682b2a5f44c31809e8ab0a98a46d2374c15
   },
   {
     title: "Bases de Datos",
