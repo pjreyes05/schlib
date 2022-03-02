@@ -1,7 +1,7 @@
 import { useState } from "react";
 import BOOKS from "../books";
 import Book from "../components/Book";
-import { SearchIcon } from "@heroicons/react/solid";
+import { SearchIcon, ExternalLinkIcon } from "@heroicons/react/solid";
 
 const IndexScreen = () => {
   const [filter, setFilter] = useState("");
@@ -58,6 +58,13 @@ const IndexScreen = () => {
             />
           );
         })}
+        <a
+          href="https://github.com/pjreyes05/schlib" target="_blank"
+          className="text-white text-center w-44 h-60 rounded-xl bg-slate-700/50 hover:bg-slate-600/50 flex flex-col justify-center items-center gap-2 box-content transition"
+        >
+          <p className="w-2/3 text-slate-500 text-sm font-medium">Learn How to Contribute</p>
+          <ExternalLinkIcon className="w-5 h-5 text-slate-600" />
+        </a>
       </main>
       <footer className="font-medium text-center w-full p-8 bg-slate-900">
         <small className="text-slate-500">
