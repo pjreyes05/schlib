@@ -13,14 +13,14 @@ const IndexScreen = () => {
   return (
     <div className="min-h-screen bg-slate-800 flex flex-col">
       <header className="text-white text-center text-xs p-2 font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-teal-500 animate-gradient-x">
-        School Resources 📚️
+        Recursos de Estudio 📚️
       </header>
       <div className="p-2 bg-slate-900 flex items-center justify-center sticky top-0 left-0 z-20 shadow-lg">
         <SearchIcon className="text-slate-500 w-5 h-5 ml-2" />
         <input
           type="text"
           className="text-white text-center font-normal w-full p-2 bg-transparent outline-none focus:outline-none placeholder:text-slate-500"
-          placeholder="Look for a Book or a Tag"
+          placeholder="Busca un Libro, Autor o Etiqueta"
           value={filter}
           onChange={onSearch}
         />
@@ -62,13 +62,13 @@ const IndexScreen = () => {
           href="https://github.com/pjreyes05/schlib" target="_blank"
           className="text-white text-center w-44 h-60 rounded-xl bg-slate-700/50 hover:bg-slate-600/50 flex flex-col justify-center items-center gap-2 box-content transition"
         >
-          <p className="w-2/3 text-slate-500 text-sm font-medium">Learn How to Contribute</p>
+          <p className="w-2/3 text-slate-500 text-sm font-medium">Conoce Como Contribuir</p>
           <ExternalLinkIcon className="w-5 h-5 text-slate-600" />
         </a>
       </main>
       <footer className="font-medium text-center w-full p-8 bg-slate-900">
         <small className="text-slate-500">
-          Crafted with ❤️ by{" "}
+          Creado con ❤️ por{" "}
           <a href="https://reyes.cool" className="text-indigo-500">
             Jorge Reyes
           </a>
