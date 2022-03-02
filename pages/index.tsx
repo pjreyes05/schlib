@@ -61,7 +61,7 @@ const IndexScreen = () => {
       </main>
       <footer className="font-medium text-center w-full p-8 bg-slate-900">
         <small className="text-slate-500">
-          Made with ❤️ by{" "}
+          Crafted with ❤️ by{" "}
           <a href="https://reyes.cool" className="text-indigo-500">
             Jorge Reyes
           </a>

@@ -48,6 +48,27 @@ const BOOKS = [
     cover: "/math/cidp-lr.png",
     tags: ["math", "probability"],
   },
+  {
+    title: "Algorithm Design",
+    author: "Jon Kleinberg, Éva Tardo",
+    url: "https://ia902909.us.archive.org/2/items/AlgorithmDesign1stEditionByJonKleinbergAndEvaTardos2005PDF/Algorithm%20Design%20%281st%20Edition%29%20by%20Jon%20Kleinberg%20and%20Eva%20Tardos%202005%20PDF.pdf",
+    cover: "/programming/ad-jket.png",
+    tags: ["programming", "algorithms"],
+  },
+  {
+    title: "Bases de Datos",
+    author: "Mercedes Marqués",
+    url: "https://openlibra.com/es/book/download/bases-de-datos-2",
+    cover: "/programming/bdd-mm.png",
+    tags: ["programming", "database"],
+  },
+  {
+    title: 'Bases de Datos Avanzadas',
+    author: 'María José Aramburu Cabo, Ismael Sanz Blasco',
+    url: 'https://openlibra.com/es/book/download/bases-de-datos-avanzadas',
+    cover: "/programming/bdda-mjacisb.png",
+    tags: ["programming", "database"],
+  },
 ];
 
 export default BOOKS;
